@@ -21,7 +21,6 @@ int main() {
     sum = sum + Lengths[j];
   }
 
-  cout << "Sum is " << sum;
-
-  
+  sum = sum - (n-1);
+  cout << sum;
 }
